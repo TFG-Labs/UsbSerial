@@ -3,7 +3,7 @@ apply plugin: 'com.android.library'
 def artifact = "usbserial.jar"
 
 android {
-
+    namespace = 'com.felhr.usbserial'
     group = 'com.felhr.usbserial'
     version = project.VERSION_NAME
 
